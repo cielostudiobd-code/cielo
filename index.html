@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cielo — Home</title>
+  <meta name="description" content="Cielo — discover, collect and explore.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+
+    <header class="header">
+      <a class="brand" href="#home" aria-label="Cielo home">
+        <span class="brand-mark">C</span>
+        <span>CIELO</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="plan.html">Plan</a>
+        <a href="media.html">Media</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <a class="contact-btn" href="contact.html">CONTACT US</a>
+    </header>
+
+    <main id="home">
+
+      <!--
+        HERO GIF:
+        Put your GIF at: assets/images/hero.gif
+        Then change the src below if your filename is different.
+        The GIF sits BEHIND the hero heading.
+      -->
+      <section class="hero section-pad">
+        <div class="hero-gif">
+          <img src="assets/images/hero.gif" alt="" onerror="this.style.display='none'">
+        </div>
+
+        <div class="hero-copy reveal">
+          <p class="eyebrow">DISCOVER • CREATE • EXPLORE</p>
+          <h1>THERE IS<br>NOTHING<br>LIMITATION</h1>
+          <p class="hero-text">
+            Explore a carefully curated world of creative experiences,
+            stories and visual collections. Discover what's new and
+            find something made for you.
+          </p>
+          <div class="buttons">
+            <a class="btn btn-primary" href="plan.html">GET STARTED</a>
+            <a class="btn btn-outline" href="media.html">EXPLORE</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section-pad" id="plan">
+        <div class="section-heading reveal">
+          <h2>CHECK OUR TOP PRODUCT</h2>
+        </div>
+
+        <div class="product-track">
+          <article class="product-card reveal">
+            <div class="product-image image-slot">
+              <img src="assets/images/product-01.webp" alt="Cielo collection 01">
+            </div>
+            <div class="product-copy">
+              <h3>CIELO SERVER SETUP — 01</h3>
+              <p>Meet the latest collection from Cielo. Discover new ideas, fresh visuals and carefully selected experiences.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal reveal-delay">
+            <div class="product-image image-slot">
+              <img src="assets/images/product-02.webp" alt="Cielo collection 02">
+            </div>
+            <div class="product-copy">
+              <h3>CIELO SERVER TRAILER — 02</h3>
+              <p>Explore another part of our collection and discover what is new, different and ready to explore.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="latest" id="media">
+        <div class="section-heading centered reveal">
+          <h2>LATEST COLLECTIONS</h2>
+        </div>
+
+        <div class="mosaic">
+          <div class="mosaic-item image-slot reveal"><img src="assets/images/media-01.webp" alt="Cielo media 01"></div>
+          <div class="mosaic-item image-slot reveal reveal-delay"><img src="assets/images/media-02.webp" alt="Cielo media 02"></div>
+          <div class="mosaic-item image-slot reveal"><img src="assets/images/media-03.webp" alt="Cielo media 03"></div>
+          <div class="mosaic-item image-slot reveal reveal-delay"><img src="assets/images/media-04.webp" alt="Cielo media 04"></div>
+          <div class="mosaic-item image-slot reveal"><img src="assets/images/media-05.webp" alt="Cielo media 05"></div>
+          <div class="mosaic-item image-slot reveal reveal-delay"><img src="assets/images/media-06.webp" alt="Cielo media 06"></div>
+        </div>
+
+        <div class="center-cta reveal">
+          <a class="btn btn-primary" href="#about">GET STARTED</a>
+        </div>
+      </section>
+
+      <section class="feature section-pad" id="about">
+        <div class="feature-collage">
+          <div class="feature-img tall image-slot reveal"><img src="assets/images/feature-01.webp" alt="Cielo feature 01"></div>
+          <div class="feature-img small image-slot reveal reveal-delay"><img src="assets/images/feature-02.webp" alt="Cielo feature 02"></div>
+          <div class="feature-img large image-slot reveal"><img src="assets/images/feature-03.webp" alt="Cielo feature 03"></div>
+        </div>
+
+        <div class="feature-copy reveal">
+          <h2>CHECK OUR<br>TOP PRODUCT</h2>
+          <p>
+            Cielo brings together visual ideas, collections and experiences
+            in one carefully designed space. Browse the latest work and
+            discover something that fits your style.
+          </p>
+          <div class="feature-actions">
+            <a class="btn btn-primary" href="plan.html">GET STARTED</a>
+            <a class="play-link" href="media.html"><span class="play">▶</span> EXPLORE</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter-wrap reveal">
+        <div class="newsletter">
+          <h2>GET QUICK UPDATE</h2>
+          <p>Stay updated with the latest collections, stories and releases from Cielo.</p>
+          <a class="subscribe-form community-link"
+             href="https://discord.gg/BAYgHhfkym"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Join My Community Cielo">
+            JOIN MY COMMUNITY CIELO
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-brand reveal">
+          <a class="brand" href="#home"><span class="brand-mark">C</span><span>CIELO</span></a>
+          <p>A modern creative space built around visual collections, stories and experiences.</p>
+          <div class="socials">
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer-column reveal">
+          <h4>Company</h4>
+          <a href="#about">About</a><a href="#">Features</a><a href="#">Works</a><a href="#">Career</a>
+        </div>
+        <div class="footer-column reveal reveal-delay">
+          <h4>Help</h4>
+          <a href="#">Customer Support</a><a href="#">Delivery Details</a><a href="#">Terms & Conditions</a><a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-column reveal">
+          <h4>Resources</h4>
+          <a href="#">Free eBooks</a><a href="#">Development Tutorial</a><a href="#">How-to / Blog</a><a href="#">YouTube Playlist</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
